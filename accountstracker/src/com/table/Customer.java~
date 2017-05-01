@@ -1,0 +1,121 @@
+package com.table;
+
+public class Customer {
+	long account_no;
+	double curr_bal;
+	String cur_name;
+	String login_pin;
+	int atm_pin;
+	
+	
+	
+public Customer(long account_no,double curr_bal,String cur_name,int atm_pin) 
+{
+	this.account_no = account_no;
+	this.curr_bal = curr_bal;
+	this.cur_name = cur_name;
+	this.atm_pin = atm_pin;
+}
+
+
+public Customer(long account_no,double curr_bal,String cur_name,String login_pin , int atm_pin) 
+{
+	this.account_no = account_no;
+	this.curr_bal = curr_bal;
+	this.cur_name = cur_name;
+	this.login_pin = login_pin;
+	this.atm_pin = atm_pin;
+}
+
+	public Customer() {
+	
+}
+
+	public Customer(double updated_bal, long long_acn) {
+		this.curr_bal = updated_bal;
+		this.account_no = long_acn;
+	}
+//	public Customer(long account_no,double curr_bal,String cur_name,String login_pin , int atm_pin) {
+//		this.account_no = account_no;
+//		this.curr_bal = curr_bal;
+//		this.cur_name = cur_name;
+//		
+//		this.atm_pin = atm_pin;
+//	}
+
+	/**
+	 * @return the account_no
+	 */
+	public long getAccount_no() {
+		return account_no;
+	}
+
+	/**
+	 * @param account_no
+	 *            the account_no to set
+	 */
+	public void setAccount_no(long account_no) {
+		this.account_no = account_no;
+	}
+
+	/**
+	 * @return the curr_bal
+	 */
+	public double getCurr_bal() {
+		return curr_bal;
+	}
+
+	/**
+	 * @param curr_bal
+	 *            the curr_bal to set
+	 */
+	public void setCurr_bal(double curr_bal) {
+		this.curr_bal = curr_bal;
+	}
+
+	/**
+	 * @return the cur_name
+	 */
+	public String getCur_name() {
+		return cur_name;
+	}
+
+	/**
+	 * @param cur_name
+	 *            the cur_name to set
+	 */
+	public void setCur_name(String cur_name) {
+		this.cur_name = cur_name;
+	}
+
+	/**
+	 * @return the login_pin
+	 */
+	public String getLogin_pin() {
+		return login_pin;
+	}
+
+	/**
+	 * @param login_pin
+	 *            the login_pin to set
+	 */
+	public void setLogin_pin(String login_pin) {
+		this.login_pin = login_pin;
+	}
+
+	/**
+	 * @return the atm_pin
+	 */
+	public int getAtm_pin() {
+		return atm_pin;
+	}
+
+	/**
+	 * @param atm_pin
+	 *            the atm_pin to set
+	 */
+	public void setAtm_pin(int atm_pin) {
+		this.atm_pin = atm_pin;
+	}
+
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Banking Application</string>
+    <string name="accountsprompt">Select Account</string>
+
+    <color name="Saffron">#ff9933</color>
+    <color name="Navy_blue">#000080</color>
+    <color name="saffron_color">#438EB9</color>
+    <color name="white_color">#ffffff</color>
+    <color name="green_color">#138808</color>
+    <color name="pay">#5F1C9C</color>
+    
+
+    <string name="acnt_no">Enter Account Number</string>
+    <string name="login_pin">Choose Login PIN</string>
+    <string name="re_login_pin">Re-Enter Login PIN</string>
+    <string name="account_no">Enter Account Number</string>
+    <string name="log_in_pin">Enter Login PIN</string>
+    <string name="help_page">Help</string>
+    <string name="ent_acnt_no">Enter Account Number</string>
+    <string name="ent_amount">Enter Amount</string>
+
+    <color name="header_color">#438EB9</color>
+
+    <string name="yo_bank">YO Bank</string>
+    <string name="details">Details</string>
+    <string name="activate">Activate</string>
+    <string name="login">Login</string>
+    <string name="help">Help</string>
+    <string name="locate_us">Locate Us</string>
+    <string name="services">Services</string>
+    <string name="w_c_u">Who can use</string>
+    <string name="term_of_use">Terms of use</string>
+    <string name="linking_details">Linking Details</string>
+    <string name="apply_now">Apply Now</string>
+    <string name="next">Next</string>
+    <string name="fund_transfer">Fund Transfer</string>
+    <string name="last_5_tran">Last 5 Transactions</string>
+    <string name="last_transaction">Last Transactions</string>
+    <string name="previous">Previous</string>
+    <string name="transfer_now">Transfer Now</string>
+    <string name="bal_enq">Balance Enquiry</string>
+    <string name="cust_name">Customer Name</string>
+    <string name="account_number">Account Number</string>
+    <string name="create_pin">Create Pin</string>
+    <string name="bal_details">Balance Details</string>
+    <string name="login_details">Login Details</string>
+
+    <color name="header_button_color">#00a0b0</color>
+
+    <color name="header_textView_color">#f37a67</color>
+
+</resources>

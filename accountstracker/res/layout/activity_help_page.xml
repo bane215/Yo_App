@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginRight="3dp"
+        android:layout_weight=".23"
+        android:background="@color/FireBrick"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo_yo_bank2" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/title_padding_left"
+            android:text="@string/help_page" 
+            android:textSize="32sp"
+            android:textStyle="italic"
+            android:textColor="@color/WhiteSmoke" 
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_weight=".77"
+        android:background="@color/DeepSkyBlue"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/help_textView"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="12dp"
+            android:layout_weight=".13"
+            android:background="@color/DarkBlue"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Please Select" />
+
+        <Button
+            android:id="@+id/activateBtn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight=".13"
+            android:background="@color/Blue"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:text="@string/activate"
+            android:textColor="@color/white"
+             />
+
+        <Button
+            android:id="@+id/servicesBtn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight=".13"
+            android:background="@color/Blue"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:text="Enquiry"
+            android:textColor="@color/white"
+             />
+
+        <Button
+            android:id="@+id/wcu_Btn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight=".13"
+            android:background="@color/Blue"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:text="@string/w_c_u"
+            android:textColor="@color/white"
+             />
+
+        <Button
+            android:id="@+id/linkDetailBtn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight=".13"
+            android:background="@color/Blue"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:text="Services"
+            android:textColor="@color/white"
+             />
+
+        <Button
+            android:id="@+id/termOfUseBtn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight=".13"
+            android:background="@color/Blue"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:text="@string/term_of_use"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3e80b4"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="East :  Yo Bank, Sincere Tower 4, Community Centre, Preet Vihar 9810177432 \n
+                     West :  Vardhman Central Mall, Sector 3, Dwarka 9810177433 \n
+                     North : Ashok Vihar, B-2/16, Phase 2, Model Town 9810177434 \n
+                     South : CSC, Niti Bagh, South Extension 9810177435 \n
+                     Central: A9, Phelps Building, Connaught Place 9810177436"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    
+    <!--  <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="East : Please Contact 24-hour YoBank Customer Care at Preet Vihar 9810177432 \n
+                        West : Please Contact 24-hour YoBank Customer Care at Dwarka 9810177433 \n
+                        North : Please Contact 24-hour YoBank Customer Care at Model Town 9810177434 \n
+                        South : Please Contact 24-hour YoBank Customer Care at South Extension 9810177435 \n
+                        Central: Please Contact 24-hour YoBank Customer Care at Connaught Place 9810177436 "
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" /> -->
+
+ 
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:weightSum="1"
+    android:orientation="vertical" >
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginRight="3dp"
+        android:layout_weight=".15"
+        android:background="@color/FireBrick"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo_yo_bank2" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/title_padding_left"
+            android:text="HELP : Activation" 
+            android:textSize="32sp"
+            android:textStyle="italic"
+            android:textColor="@color/WhiteSmoke" 
+             />
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_weight=".85"
+        android:background="@color/DarkOrange"
+        android:gravity="center"
+        android:orientation="vertical" >
+        
+    <TextView
+        android:id="@+id/help_activate_textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:background="@color/DarkOrange"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="First time YoBank app users can activate their account by using the 'Activate' button.\n The user has to enter his account number which will be verified if it exists in the database.\nThereafter the user will be prompted to create a four digit login pin." />
+
+</LinearLayout>
+
+</LinearLayout>

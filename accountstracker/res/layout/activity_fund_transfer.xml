@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginRight="3dp"
+        android:layout_weight=".2"
+        android:background="@color/FireBrick"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo_yo_bank2" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/title_padding_left"
+            android:text="Funds Transfer" 
+            android:textSize="32sp"
+            android:textStyle="italic"
+            android:textColor="@color/WhiteSmoke" 
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_weight=".8"
+        android:background="@color/DarkOrange"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <EditText
+            android:id="@+id/ft_editText1"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:layout_weight=".13"
+            android:background="@color/FireBrick"
+            android:hint="@string/ent_acnt_no"
+            android:paddingLeft="40dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:maxLength="10"
+            android:textColorHint="@color/white" />
+
+        
+        
+         <EditText
+            android:id="@+id/ft_editText2"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:layout_weight=".13"
+            android:background="@color/FireBrick"
+            android:hint="@string/ent_amount"
+            android:paddingLeft="40dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textSize="22sp"
+            android:maxLength="6"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+         <Button
+            android:id="@+id/transferBtn"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight=".13"
+            android:background="@color/FireBrick"
+            android:text="@string/transfer_now"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+         
+        
+    </LinearLayout>
+
+</LinearLayout>

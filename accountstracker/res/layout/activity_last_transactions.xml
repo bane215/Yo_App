@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginRight="3dp"
+        android:layout_weight=".2"
+        android:background="@color/FireBrick"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo_yo_bank2" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/title_padding_left"
+            android:text="Last Transactions"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="32sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_weight=".8"
+        android:background="@color/DarkOrange"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1" >
+        
+       <!--  <TextView
+            android:id="@+id/txtview_lasttrans"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@color/DarkOrange"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:paddingTop="15dp"
+            android:paddingLeft="50dp"
+            /> -->
+
+        <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <TableLayout
+            android:id="@+id/tbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight = "1">
+        </TableLayout>
+    </HorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout>
